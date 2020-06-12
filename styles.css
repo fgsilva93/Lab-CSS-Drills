@@ -23,10 +23,89 @@ span {
 }
 
 .boxes {
-    margin: 2px;
+    margin: 10px;
     padding: 2px;
-    border: chocolate solid 2px;
+    border: chocolate solid 3px;
     border-radius: 10px;
     width: 30em;
+    /* display: inline-block; */
+    display: block;
 
+}
+#box1 {
+    background-color: burlywood;
+}
+
+#box2 {
+    background-color: darkcyan;
+    /* position: relative; */
+    /* bottom: 10rem;
+    left: 33rem; */
+    /* position: absolute;
+    bottom: 45.8rem;
+    left: 33rem; */
+}
+
+#box3 {
+    background-color: darkturquoise;
+}
+
+#box4 {
+    background-color: gold;
+}
+
+ .ig {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: gray;
+    /* top: 4rem; */
+    left: 9rem;
+    margin: 0.5rem;
+}
+
+h1 {
+    color: teal;
+}
+
+.original {
+    color: rgb(159, 165, 159);
+}
+
+.additional {
+    color: palevioletred;
+}
+
+#rank1 {
+    color: lightsalmon;
+}
+#rank2 {
+    color: goldenrod;
+}
+#rank3 {
+    color: azure;
+}
+#rank4 {
+    color: blueviolet;
+}
+#rank5 {
+    color: grey;
+}
+
+ul {
+    color: blue;
+}
+
+.star {
+    color: lightskyblue;
+}
+
+#wars {
+    color: darkturquoise
+}
+
+.border {
+    border: 2px solid black;
+    margin: 2px;
 }
